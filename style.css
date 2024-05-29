@@ -1,5 +1,4 @@
 
-
 @media (max-width: 599px){
     body{
         position: relative;
@@ -9,7 +8,7 @@
         padding: 0;
     }
     
-    
+    /*  */
     .banner{
         display: flex;
         flex-direction: column;
@@ -349,8 +348,11 @@ footer{
         margin: 0;
         font-size: 40px;
         color: white;
+        
     }
-
+    :root{
+        --animate-duration: 0.0001s;
+    }
     header {
         width: 100%;
         top: 0px;
